@@ -1,0 +1,34 @@
+h1{
+    color: rgb(238, 44, 44);
+}
+p{
+    font-size:20px;
+    font-family: Arial;
+
+}
+p span{
+    font-weight: bold;
+}
+
+.intro p{
+    color: blueviolet;
+}
+h3{
+    color: rgb(96, 175, 18);
+}
+.image{
+    background-image: url(images/pexels-vanmalidate-769289.jpg);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+
+}
+a:hover{
+    color: red;
+}
+
+@media screen and (max-width:700px)
+{
+    body{
+        background-color: brown;
+    }
+}
